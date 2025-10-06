@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0f1720;
+  color: #e6eef8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.vs-node {
+  background: linear-gradient(180deg,#15202b,#0f1720);
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+  min-width: 120px;
+  max-width: 360px;
+}
+.vs-node-header {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.vs-node-content input, .vs-node-content select, .vs-node-content textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.02);
+  color: #e6eef8;
+}
+
+.react-flow__node { /* ensure reactflow nodes inherit transparent bg */
+  background: transparent;
+}
